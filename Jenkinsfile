@@ -7,7 +7,6 @@ pipeline{
             }
 
             steps{
-                sh 'npm install'
                 sh 'npm install -g create-vite'
                 sh 'npm run dev'
             }
